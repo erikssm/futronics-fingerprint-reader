@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export PATH=/home/slyeung/download/toolchain/raspberrypi-tools-9c3d7b6/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin:$PATH
+
+export CC=arm-linux-gnueabihf-gcc
+
+make -f ftrScanAPI_Ex.mak clean
+make -f ftrScanAPI_Ex.mak
+
